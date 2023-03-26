@@ -1,0 +1,28 @@
+.header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding:0px 120px;
+  height: 80px;
+  background-color: black;
+}
+.name{
+  color: white;
+  font-size: 2.5rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #8ebf42;
+}
+.name:hover{
+  color: orange;
+}
+ul a{
+  text-decoration: none;
+  color: white;
+  margin-left:25px;
+}
+a{
+  font-size: 20px;
+}
+a:hover{
+  color: orange;
+}
