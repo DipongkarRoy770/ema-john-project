@@ -1,13 +1,13 @@
 .img{
-  width: 400px;
-  height:320px;
+  width: 300px;
+  height:250px;
   border-radius: 5px;
   margin: 5px 5px;
   border: 1px solid rgb(234, 146, 32);
 }
 .product{
-  width: 410px;
- /*  height: 330px; */
+  width: 310px;
+  height: 470px;
   border-radius:5px;
   border:2px solid rgb(249, 206, 206);
   position: relative;
@@ -22,10 +22,16 @@
  margin-top: 0px;
 }
 .btn{
-  background-color: pink;
+  background-color: rgb(245, 127, 147);
   width: 100%;
   padding: 12px;
   border: none;
   position: absolute;
   bottom: 0px;
+  color: white;
+  font-size: 16px;
+}
+.btn:hover{
+  background-color: orange;
+  color: rgb(0, 28, 19);
 }

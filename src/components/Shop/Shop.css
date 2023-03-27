@@ -1,13 +1,40 @@
 .shop-container{
   margin-top: 12px;
   display: grid;
-  grid-template-columns:repeat(4,1fr);
+  grid-template-columns:repeat(2,1fr);
 
   
 }
 .card-container{
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   row-gap: 12px;
   column-gap: 12px;
+}
+.product-container{
+  width:90%;
+  margin-left: 22px;
+  height: 600px;
+ background-color: rgb(216, 246, 156); 
+}
+.order{
+  padding-top: 12px;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+.hr{
+  margin-top: -20px;
+  padding: 0px;
+  border: 2px solid goldenrod;
+  height:5px;
+  width: 200px;
+  border-radius: 20px;
+}
+.product-bio{
+  font-family: sans-serif;
+  margin-left:20px;
+  font-size: 22px;
 }
