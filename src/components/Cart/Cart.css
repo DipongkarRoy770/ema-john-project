@@ -1,0 +1,23 @@
+.cart{
+  background-color: pink;
+  margin-left: 24px;
+  padding:20px;
+}
+.product-info{
+  font-size: 16px;
+  margin-left: 20px;
+}
+.order{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+.hr{
+  margin-top:-30px;
+  width: 220px;
+  height: 5px;
+  border: 2px solid orange;
+  background-color: rgb(51, 153, 61);
+  border-radius: 10px;
+}
